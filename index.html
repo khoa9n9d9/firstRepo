@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="root"></div>
+     <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+    ></script>
+	<script>
+			const  rootElement = document.getElementById("root")
+			
+			const helloword =React.createElement(
+				"h1",
+				{},
+				"hello word!"
+			)
+			ReactDOM.render(helloword, rootElement)
+	</script>
+    <!-- <script> -->
+        <!-- const a = { -->
+            <!-- name : "haha", -->
+            <!-- func : function (a) { -->
+            <!-- this.age = a} -->
+        <!-- } -->
+        <!-- if (a.hasOwnProperty("age")) { -->
+            <!-- console.log("Đối tượng a có thuộc tính age:", a.age); -->
+        <!-- } else { -->
+            <!-- console.log("Đối tượng a không có thuộc tính age."); -->
+        <!-- } -->
+        <!-- console.log(a.age); -->
+        <!-- a.func(10); -->
+        <!-- console.log(a.age); -->
+        <!-- if (a.hasOwnProperty("age")) { -->
+            <!-- console.log("Đối tượng a có thuộc tính age:", a.age); -->
+        <!-- } else { -->
+            <!-- console.log("Đối tượng a không có thuộc tính age."); -->
+        <!-- } -->
+    <!-- </script> -->
+</body>
+</html>
